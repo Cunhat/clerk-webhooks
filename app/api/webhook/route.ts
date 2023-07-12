@@ -1,6 +1,6 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
- async function handler(req, res) {
+ async function handler(req: NextRequest, res: NextResponse) {
     //   const data = await res.json()
 
     console.log(req)
