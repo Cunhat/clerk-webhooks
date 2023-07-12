@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 
  async function handler(req: NextRequest, res: NextResponse) {
     //   const data = await res.json()
-
-    console.log(req)
+    const pauload = await req.json()
+    console.log(pauload)
  
   return NextResponse.json( {"teste": "uheuheuhueh"} )
   }
